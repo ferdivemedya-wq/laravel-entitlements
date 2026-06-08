@@ -21,7 +21,7 @@ use LucaLongo\LaravelEntitlements\Enums\LicenseUsageStatus;
  *
  * @method static Builder<static> open()
  */
-final class LicenseUsage extends Model
+class LicenseUsage extends Model
 {
     use HasFactory;
 

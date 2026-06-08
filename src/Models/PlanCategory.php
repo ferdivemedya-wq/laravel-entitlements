@@ -15,7 +15,7 @@ use Spatie\Translatable\HasTranslations;
  * @property int $sort
  * @property bool $allows_multiple_active_plans
  */
-final class PlanCategory extends Model
+class PlanCategory extends Model
 {
     use HasFactory;
     use HasTranslations;

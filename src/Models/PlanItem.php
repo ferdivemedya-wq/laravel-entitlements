@@ -17,7 +17,7 @@ use LucaLongo\LaravelEntitlements\Exceptions\InvalidEntitlementTypeException;
  * @property int $quantity
  * @property bool $is_flexible
  */
-final class PlanItem extends Model
+class PlanItem extends Model
 {
     use HasFactory;
 

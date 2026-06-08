@@ -36,7 +36,7 @@ use LucaLongo\LaravelEntitlements\Exceptions\InvalidEntitlementTypeException;
  * @method static Builder<static> valid()
  * @method static Builder<static> ofType(EntitlementType $type)
  */
-final class License extends Model
+class License extends Model
 {
     use HasFactory;
 

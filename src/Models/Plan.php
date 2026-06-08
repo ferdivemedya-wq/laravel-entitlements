@@ -23,7 +23,7 @@ use Spatie\Translatable\HasTranslations;
  *
  * @method static Builder<static> active()
  */
-final class Plan extends Model
+class Plan extends Model
 {
     use HasFactory;
     use HasTranslations;
